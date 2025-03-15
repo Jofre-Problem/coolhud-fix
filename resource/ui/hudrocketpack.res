@@ -1,0 +1,128 @@
+#base "HudItemEffectMeter.res"
+"Resource/UI/HudRocketPack.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"			"HudItemEffectMeter"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"r127"	[$WIN32]
+		"ypos"				"r109"	[$WIN32]
+		"xpos_minmode"		"r227"	[$WIN32]
+		"ypos_minmode"		"r156"	[$WIN32]
+		"zpos"				"-1"
+		"wide"				"94"
+		"tall"				"45"
+	}
+
+	"ItemEffectMeterBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectMeterBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"0"
+		"zpos"				"1"
+		"wide"				"132"
+		"tall"				"48"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"scaleImage"		"1"	
+		"image"				"replay/thumbnails/hud/right_blu"	
+		"teambg_2"			"replay/thumbnails/hud/right_red"
+		"teambg_2_minmode"	"replay/thumbnails/hud/minmode/right_red"
+		"teambg_2_lodef"	"replay/thumbnails/hud/right_red"
+		"teambg_3"			"replay/thumbnails/hud/right_blu"
+		"teambg_3_minmode"	"replay/thumbnails/hud/minmode/right_blu"
+		"teambg_3_lodef"	"replay/thumbnails/hud/right_blu"					
+	}
+
+	"ItemEffectIcon"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectIcon"
+		"xpos"				"4"
+		"ypos"				"-2"
+		"ypos_minmode"		"-2"
+		"zpos"				"2"
+		"wide"				"32"
+		"tall"				"32"
+		"visible"			"1"
+		"visible_minmode"	"1"
+		"enabled"			"1"
+		"image"				"../hud/pyro_jetpack_off2"
+		"scaleImage"		"1"	
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterLabel"
+		"xpos"				"3"
+		"ypos"				"23"
+		"xpos_minmode"		"3"
+		"ypos_minmode"		"23"
+		"zpos"				"2"
+		"wide"				"90"
+		"tall"				"15"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#TF_RocketPack_Disabled"
+		"textAlignment"		"center"
+		"textAlignment_minmode"	"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"font"				"TargetIDFont2"
+		"fgcolor"			"178 0 0 255"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"			"ItemEffectMeter"
+		"font"				"Default"
+		"xpos"				"30"
+		"ypos"				"15"
+		"xpos_minmode"		"30"
+		"ypos_minmode"		"15"
+		"zpos"				"2"
+		"wide"				"22"
+		"wide_minmode"		"22"
+		"tall"				"8"				
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"Left"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor"			"White"
+	}
+
+	"ItemEffectMeter2"
+	{	
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"			"ItemEffectMeter2"
+		"font"				"Default"
+		"xpos"				"56"
+		"ypos"				"15"
+		"xpos_minmode"		"56"
+		"ypos_minmode"		"15"
+		"zpos"				"2"
+		"wide"				"22"
+		"tall"				"8"				
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"Left"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor"			"White"
+	}
+}
