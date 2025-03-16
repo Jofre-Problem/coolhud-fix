@@ -209,8 +209,15 @@ event HintMessageHide
 {
 	Animate HudHintDisplay FgColor	"255 220 0 0"   Linear  0.0 	0.2
 	Animate HudHintDisplay HintSize	"0"		Deaccel 0.2	0.3
+	RunEventChild MainMenuOverride COOLHUDRUN 0.0	//Fix empty MvM end screen, needs 3 entries
+	RunEventChild MainMenuOverride COOLHUDRUN 0.0
+	RunEventChild MainMenuOverride COOLHUDRUN 0.0
 }
+event COOLHUDRUN
+{
+	FireCommand 0.0 "engine echo ==== COOLHUD LOADED"
 
+}
 event KeyHintMessageShow
 {
 	// show the hints

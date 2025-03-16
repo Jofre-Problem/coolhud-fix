@@ -5,3 +5,7 @@ event HealthFixer
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudMedicChargedStop 0.1
 }
+event CompetitiveGame_RestoreChatWindow
+{
+	RunEvent HealthFixer 0.0
+}
