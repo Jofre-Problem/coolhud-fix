@@ -9,7 +9,7 @@
 		"xpos"					"5"		[$WIN32]
 		"xpos"					"5"		[$X360]
 		"ypos"					"r250"
-		"ypos_hidef"			"r250"
+		"ypos_minmode"			"r280"
 		"xpos_minmode"			"5"
 		"wide"	 				"240"
 		"wide_minmode"			"240"
